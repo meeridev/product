@@ -218,9 +218,20 @@ body {
 
 /*product start*/
 #product {
-    background: url("../img/product-one.svg") no-repeat center/cover;
+    background: url("../img/Bg.png") no-repeat center/cover;
 }
 
+.dark .product h1 {
+    color: white;
+}
+
+.dark .product h3 {
+    color: white;
+}
+
+.dark .product p {
+    color: white;
+}
 .product h1 {
     color: #22343D;
     text-align: center;
@@ -318,6 +329,18 @@ body {
     padding: 100px 0;
 }
 
+.dark .manager h4 {
+    color: white;
+}
+
+.dark .manager h1 {
+    color: white;
+}
+
+.dark .manager p {
+    color: white;
+}
+
 .manager-text h4 {
     color: #22343D;
     font-size: 16px;
@@ -353,6 +376,21 @@ body {
     padding: 100px 0;
 }
 
+.dark .customer h4 {
+    color: white;
+}
+
+.dark .customer h1 {
+    color: white;
+}
+
+.dark .customer p {
+    color: white;
+}
+
+.dark .customer h6 {
+    color: white;
+}
 .customer {
     display: flex;
     justify-content: space-between;
@@ -434,6 +472,7 @@ body {
     font-weight: 400;
     line-height: 26px;
 }
+
 /*customer end*/
 
 /*cool start*/
@@ -441,6 +480,17 @@ body {
     padding: 100px 0;
 }
 
+.dark .cool h4 {
+    color: white;
+}
+
+.dark .cool h1 {
+    color: white;
+}
+
+.dark .cool p {
+    color: white;
+}
 .cool h4 {
     color: #22343D;
     font-size: 16px;
@@ -469,5 +519,4 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 /*cool end*/
