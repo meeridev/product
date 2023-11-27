@@ -37,6 +37,8 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+    backdrop-filter: blur(8px);
+
 }
 
 .dark #header {
@@ -217,8 +219,10 @@ body {
 /*work end*/
 
 /*product start*/
+
 #product {
-    background: url("../img/Bg.png") no-repeat center/cover;
+    background: url("../img/easy.png") no-repeat center/cover;
+    padding: 25px 0;
 }
 
 .dark .product h1 {
@@ -232,6 +236,7 @@ body {
 .dark .product p {
     color: white;
 }
+
 .product h1 {
     color: #22343D;
     text-align: center;
@@ -322,9 +327,11 @@ body {
     background: transparent;
     border: 2px solid #02897A;
 }
+
 /*product end*/
 
 /*manager start*/
+
 #manager {
     padding: 100px 0;
 }
@@ -369,9 +376,11 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 /*manager end*/
 
 /*customer start*/
+
 #customer {
     padding: 100px 0;
 }
@@ -391,6 +400,7 @@ body {
 .dark .customer h6 {
     color: white;
 }
+
 .customer {
     display: flex;
     justify-content: space-between;
@@ -411,7 +421,7 @@ body {
     font-weight: 700;
 }
 
-.customer-group p{
+.customer-group p {
     width: 486px;
     color: #22343D;
     font-size: 16px;
@@ -476,42 +486,38 @@ body {
 /*customer end*/
 
 /*cool start*/
+
 #cool {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
-.dark .cool h4 {
+.dark .cool-text h4,
+.dark .cool-text h1,
+.dark .cool-text p {
     color: white;
 }
 
-.dark .cool h1 {
-    color: white;
-}
-
-.dark .cool p {
-    color: white;
-}
-.cool h4 {
+.cool-text h4 {
     color: #22343D;
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 8px;
 }
 
-.cool h1 {
+.cool-text h1 {
     color: #22343D;
     font-size: 32px;
     font-weight: 700;
     padding-bottom: 23px;
 }
 
-.cool p {
+.cool-text p {
     color: #22343D;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     width: 486px;
-    padding-bottom: 30px;
+    padding: 12px 0 25px 0;
 }
 
 .cool {
@@ -519,4 +525,351 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 /*cool end*/
+
+/*easy start*/
+#easy {
+    background: url("../img/easy.png") no-repeat top/cover;
+    padding: 25px 0;
+}
+
+.dark .easy h1,
+.dark .easy p {
+    color: white;
+}
+
+.easy h1 {
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.easy p {
+    width: 542px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.easy-text h2 {
+    color: #2F281E;
+    font-size: 16px;
+    font-weight: 500;
+    background: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.easy-block {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.easy-general {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.easy-block-two {
+    flex-direction: row-reverse;
+}
+
+.easy-text {
+    margin: 0 16px;
+    position: relative;
+}
+
+.easy-block-img {
+    border-radius: 50%;
+}
+
+.easy button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 4px;
+    background: #02897A;
+}
+
+.easy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.easy .easy h1,
+.easy .easy p {
+    color: white;
+}
+
+.easy-one {
+    width: 17px;
+    height: 17px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    left: 30px;
+}
+
+.easy-two {
+    width: 9px;
+    height: 9px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: -5px;
+    left: 20px;
+}
+
+.easy-three {
+    left: 200px;
+}
+
+.easy-four {
+    left: 220px;
+}
+
+/*easy end*/
+
+/*swiper start*/
+#swiper {
+    padding: 150px 0;
+}
+
+.dark .swiper h1,
+.dark .swiper p {
+    color: white;
+}
+
+.swiper h1 {
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.swiper p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0 33px 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    border-radius: 18px;
+    background: #fff;
+    border: 2px solid #BCD0E5;
+}
+
+.swiper-slide h4 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0 12px 24px;
+}
+
+.swiper-slide h2 {
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 0 0 12px 24px;
+}
+
+.swiper-slide:hover > h2 {
+    transition: .3s;
+    color: #02897A;
+}
+
+/*swiper end*/
+
+/*table start*/
+#table {
+    padding: 100px;
+}
+
+.dark .table h1,
+.dark .table p {
+    color: white;
+}
+
+.table h1 {
+    text-align: center;
+    color: #22343D;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.table p {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.table-one {
+    width: 322px;
+    height: 456px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.table-two {
+    color: white;
+    width: 322px;
+    height: 456px;
+    border-radius: 8px;
+    background: #02897A;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.table-three {
+    width: 322px;
+    height: 456px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.table-text h2 {
+    color: #22343D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.table-text h3 {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.table-text h4 {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.table-one,
+.table-two,
+.table-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table-one:hover,
+.table-three:hover {
+    background:  #02897A;
+    color: white;
+    transition: .2s
+}
+
+.table-two:hover {
+    background: #02897A;
+    color: white;
+    transition: .2s;
+}
+.table-text button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #02897A;
+    padding: 11px 19px 11px 18px;
+}
+
+.table-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*table end*/
+
+/*what start*/
+#what {
+
+}
+.dark .what h1,
+.dark .what p {
+    color: white;
+}
+.what-one,
+.what-two,
+.what-three {
+    width: 327px;
+    height: 236px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+}
+
+.what h1 {
+    color: #22343D;
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+    padding: 120px 0 0 0;
+}
+
+.what p {
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.what-group ion-icon {
+    color: #ceb00f;
+
+}
+.what-group p {
+    color:  #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 275px;
+}
+
+.what-group img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid  #BDBDBD;
+}
+
+.what-group h4 {
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.what-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*what end*/
