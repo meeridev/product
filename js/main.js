@@ -16,21 +16,39 @@ const swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     breakpoints: {
-        "@0.00": {
+        "450": {
             slidesPerView: 1,
             spaceBetween: 10,
         },
-        "@0.75": {
+        "992": {
             slidesPerView: 2,
             spaceBetween: 20,
         },
-        "@1.00": {
-            slidesPerView: 3,
+        "1024": {
+            slidesPerView: 2.5,
             spaceBetween: 40,
         },
-        "@1.50": {
+        "1440": {
             slidesPerView: 3,
             spaceBetween: 50,
         },
     },
 });
+
+const btnMenu = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu-general');
+const btnOpen = document.querySelector('.menu-open');
+const btnClose = document.querySelector('.menu-close');
+
+btnMenu.addEventListener("click", () => {
+    if (menu.style.display === "none") {
+        menu.style.display = "block"
+        menu.style.display = "flex"
+        btnOpen.style.display = "none"
+        btnClose.style.display = "block"
+    } else {
+        menu.style.display = "none"
+        btnOpen.style.display = "block"
+        btnClose.style.display = "none"
+    }
+})

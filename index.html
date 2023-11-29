@@ -10,10 +10,11 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="icon" href="./img/logo1.svg">
+    <link rel="icon" href="./img/logo.svg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 
@@ -21,25 +22,49 @@
 <header id="header">
     <div class="container">
         <div class="header">
-
             <div class="header-logo">
-                <img src="./img/logo1.svg" alt="img">
+                <img src="./img/logo.svg" alt="img">
                 <h1>Product</h1>
             </div>
 
-            <nav class="header-nav">
-                <a href="#">Product</a>
-                <a href="#">Customers</a>
-                <a href="#">Pricing </a>
-                <a href="#">Resources</a>
+            <div class="header-general">
+                <nav class="header-nav">
+                    <a href="#">Product</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Pricing </a>
+                    <a href="#">Resources</a>
 
-                <button class="btn-one">Sign In</button>
-                <button class="btn-two">Sign Up</button>
-                <button class="btn-three">
-                    <ion-icon class="dark-white" name="moon"></ion-icon>
-                    <ion-icon class="dark-black" name="sunny"></ion-icon>
-                </button>
-            </nav>
+                    <button class="btn-one">Sign In</button>
+                    <button class="btn-two">Sign Up</button>
+                    <button class="btn-three">
+                        <ion-icon class="dark-white" name="moon"></ion-icon>
+                        <ion-icon class="dark-black" name="sunny"></ion-icon>
+                    </button>
+                </nav>
+
+                <div class="burger-menu">
+                    <button class="menu-btn">
+                        <ion-icon class="menu-open" name="menu-outline"></ion-icon>
+                        <ion-icon class="menu-close" name="close-circle"></ion-icon>
+                    </button>
+                    <div class="menu-general">
+                        <a href="#">Product</a>
+                        <a href="#">Customers</a>
+                        <a href="#">Pricing </a>
+                        <a href="#">Resources</a>
+
+                        <button class="btn-one">Sign In</button>
+                        <button class="btn-two">Sign Up</button>
+                        <button class="btn-three">
+                            <ion-icon class="dark-white" name="moon"></ion-icon>
+                            <ion-icon class="dark-black" name="sunny"></ion-icon>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </div>
 </header>
@@ -67,7 +92,7 @@
 
             </div>
 
-            <img src="./img/work.png" alt="img">
+            <img src="./img/work.png" alt="img" class="media-img">
 
         </div>
     </div>
@@ -139,7 +164,7 @@
                 <h4>Alterationists</h4>
                 <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
             </div>
-            <img src="./img/manager.png" alt="img">
+            <img src="./img/manager.png" alt="img" class="media-img">
         </div>
     </div>
 </section>
@@ -149,7 +174,7 @@
 <section id="customer">
     <div class="container">
         <div class="customer">
-            <img src="./img/customer.png" alt="img">
+            <img src="./img/customer.png" alt="img" class="media-img">
             <div class="customer-group">
                 <h4>Easier decision making for</h4>
                 <h1>Customer Support</h1>
@@ -193,7 +218,7 @@
                 <h4>Alterationists</h4>
                 <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
             </div>
-            <img src="./img/cool.png" alt="img">
+            <img src="./img/cool.png" alt="img" class="media-img">
         </div>
     </div>
 </section>
@@ -209,7 +234,7 @@
                 prototyping, marketing strategy, landing page, Ux/UI?
             </p>
             <div class="easy-general">
-                <div class="easy-block">
+                <div class="easy-block media-one">
                     <img src="img/easy-one.png" alt="img">
                     <div class="easy-text">
                         <h2>I can take care of your pitch</h2>
@@ -217,7 +242,7 @@
                         <div class="easy-two"></div>
                     </div>
                 </div>
-                <div class="easy-block easy-block-two">
+                <div class="easy-block easy-block-two media-two">
                     <img src="img/easy-two.png" alt="img">
                     <div class="easy-text">
                         <h2>I can prototype your app</h2>
@@ -225,7 +250,7 @@
                         <div class="easy-two easy-four"></div>
                     </div>
                 </div>
-                <div class="easy-block easy-block-two">
+                <div class="easy-block easy-block-two media-three">
                     <img src="img/easy-three.png" alt="img">
                     <div class="easy-text">
                         <h2>I can design you website</h2>
@@ -233,7 +258,7 @@
                         <div class="easy-two easy-four"></div>
                     </div>
                 </div>
-                <div class="easy-block">
+                <div class="easy-block media-four">
                     <img src="img/easy-four.png" alt="img">
                     <div class="easy-text">
                         <h2>I can help marketing strategy</h2>
@@ -485,7 +510,7 @@
                     <h1>Join 100 Compannies who boost their business wiht <br> Product</h1>
                     <button>Get This</button>
                 </div>
-                <img src="./img/join.png" alt="img">
+                <img src="./img/join.png" alt="img" class="media-join">
             </div>
         </div>
     </div>
@@ -499,7 +524,10 @@
 
             <div class="footer-general">
                 <div class="footer-logo">
-                    <img src="./img/footer-logo.svg" alt="img">
+                    <div class="footer-logo-text">
+                        <img src="./img/footer-logo.svg" alt="img">
+                        <h4>Product</h4>
+                    </div>
                     <div class="footer-icons">
                         <a href="#">
                             <ion-icon name="logo-instagram"></ion-icon>
