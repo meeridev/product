@@ -104,11 +104,15 @@
         order: -1;
     }
 }
-
 @media (max-width: 768px) {
+    .footer-title,
+    .footer-text,
+    .footer-logo {
+        width: 100%;
+    }
+
 
 }
-
 @media (max-width: 576px) {
 
     .media-img,
@@ -133,7 +137,6 @@
         align-items: center;
     }
     }
-
 @media (max-width: 450px) {
     #header {
         background: white;
